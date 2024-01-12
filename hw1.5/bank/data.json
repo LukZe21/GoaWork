@@ -1,0 +1,8 @@
+[
+  {
+    "username": "Example",
+    "password": "password123",
+    "money": 500,
+    "current_money": 0
+  }
+]

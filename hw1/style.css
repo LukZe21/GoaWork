@@ -1,0 +1,58 @@
+body {
+    background: rgb(22, 22, 22);
+}
+
+#selection {
+    text-align: center;
+    margin: auto;
+    border: 1px solid black;
+    width: 10%;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+
+#dropbtn {
+    background-color: #2fbe42;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+
+#title {
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.goa-photo {
+    width: 20%;
+    border: 2px solid white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.submit-btn {
+    background-color: #2fbe42;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#submit-sec {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
