@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="background-color: rgba(22, 22, 22, 0.925);">
+
+
+    <h1 style="font-size: 50px; color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Goal Oriented Academy</h1>
+
+    <!-- პირადი ინფორმაციის ფორმა -->
+    <div style="color: white; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
+    <form>
+        <!-- სახელის შეტანა -->
+        <label for="name">Name: </label>
+        <input type="text" name="name" placeholder="John">
+        <br>
+        <br>
+        <!-- გვარის შეტანა -->
+        <label for="lastname">Lastname: </label>
+        <input type="text" name="lastname" placeholder="Dom">
+        <br>
+        <br>
+        <!-- ემაილის შეტანა -->
+        <label for="mail">Email: </label>
+        <input type="email" name="mail" placeholder="JohnDom@gmail.com">
+        <br>
+        <br>
+        <!-- პაროლის შეტანა-->
+        <label for="pass">Password: </label>
+        <input type="password" name="pass" placeholder="password123">
+        <br>
+        <br>
+        <!-- Submit -->
+        <input style="color: black; background-color: rgb(71, 230, 71); font-family: fantasy;" type="submit">
+    </form>
+    </div>
+    
+    <!-- ვიდეოს სექცია -->
+    <div>
+        <video style='width: 30%;' controls>
+            <source src="mountain-starry-skies.mp4" type="video/mp4">
+        </video>
+    </div>
+    <br>
+    <!-- ვიდეოს სექცია - iframe-ის გამოყენებით -->
+    <div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/GnLj_OnvIhg?si=o9qjilgbmYWGEpk1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <!-- აუდიო სექცია -->
+    <div>
+        <audio controls>
+            <source src="goa-speech.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+</body>
+</html>
