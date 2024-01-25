@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+.navbar .left, .navbar .center, .navbar .right {
+    display: flex;
+    align-items: center;
+}
+.navbar .center {
+    flex-grow: 2;
+    justify-content: center;
+}
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+}
+.navbar ul li {
+    margin: 0 10px;
+}
