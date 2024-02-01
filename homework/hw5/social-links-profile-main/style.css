@@ -1,0 +1,42 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.profile-card {
+    background-color: hsl(0, 0%, 12%);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+}
+.profile-card img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.profile-card h1 {
+    margin: 0;
+}
+.profile-card p {
+    margin: 5px 0;
+}
+.profile-card button {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    cursor: pointer;
+    font-size: 14px;
+}
+button:hover{
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+}
