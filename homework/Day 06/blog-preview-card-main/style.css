@@ -1,0 +1,44 @@
+body {
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.card {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    width: 335px;
+    padding: 20px;
+    box-shadow: 4px 5px 2px black;
+    border: 1px solid black;
+
+}
+.title {
+    font-weight: bold;
+}
+.date {
+    color: grey;
+}
+#profile {
+  position: relative;
+  bottom: -30px;
+  right: 12px;
+}
+
+.author {
+  position: relative;
+  left: 60px;
+  bottom: 10px;
+  color: black;
+  font-size: 17px;
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+a:hover {
+  color:hsl(47, 88%, 63%);
+}
